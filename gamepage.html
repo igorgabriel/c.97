@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atividade 1</title>
+<link rel="stylesheet" href="style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="gamepage.js"></script>
+</head>
+<body>
+
+	<div class="col-lg-4 col-md-6 -col-sm-6 -col-xs-11 login_div">
+		<h1>Adivinhe o número
+			<sup>
+				<img src="q.gif" id="logo">
+			</sup>
+		</h1>
+			<p>Celecionamos um número de 1 a 10. Tente adivinhar qual e esse número</p>
+
+<div>
+	<label for="guessField">insira sua resposta:</label>
+	<br>
+	<input type="text" id="guessField" class="guessField">
+</div>
+<br>
+		<button type="submit"onclick="submit()">enviar </button>
+
+		<button onclick="playAgain()">jogar novamente</button>
+
+
+	</div>
+	
+<script src="activity1.js"></script>
+</body>
+</html>
